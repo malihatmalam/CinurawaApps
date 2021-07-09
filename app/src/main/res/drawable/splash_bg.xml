@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/background"/>
+
+    <item android:gravity="center" android:bottom="75dp" android:left="5dp" android:width="135dp" android:height="100dp">
+        <bitmap
+            android:gravity="fill_horizontal|fill_vertical"
+            android:src="@drawable/logo2"/>
+    </item>
+    <item android:gravity="center" android:top="70dp" android:width="90dp" android:height="20dp">
+        <bitmap
+            android:gravity="fill_horizontal|fill_vertical"
+            android:src="@drawable/motto"/>
+    </item>
+
+</layer-list>
