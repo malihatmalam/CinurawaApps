@@ -11,7 +11,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#46422A</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="background">#27251A</color>
+    <color name="background">#272519</color>
     <color name="button">#FFD240</color>
     <color name="bg_white">#E1E1E1</color>
+
 </resources>

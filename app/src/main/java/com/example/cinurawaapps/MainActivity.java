@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
 //    Variable :
     //card view
-    CardView cardView;
+//    CardView cardView;
 
     //start button
     Button startButton;
@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //card view
-        cardView = findViewById(R.id.card_view);
-        cardView.setBackgroundResource(R.drawable.card_bg);
+//        cardView = findViewById(R.id.card_view);
+//        cardView.setBackgroundResource(R.drawable.card_bg);
 
         //start button
         startButton = findViewById(R.id.start_button);
