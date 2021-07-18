@@ -1,10 +1,13 @@
-package com.example.cinurawaapps;
+package com.example.cinurawaapps.ui.splash;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.cinurawaapps.R;
+import com.example.cinurawaapps.ui.home.MainActivity;
 
 public class SplashScreen extends AppCompatActivity {
 

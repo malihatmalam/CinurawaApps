@@ -45,12 +45,22 @@
         android:textSize="18sp" />
 
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/start_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:background="@drawable/bg_scan"
+        />
+
+    <Button
+        android:id="@+id/btn_show_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="showDialog"
+        android:textColor="@color/white"
+        android:layout_marginTop="32dp"
+
         />
 </LinearLayout>
 

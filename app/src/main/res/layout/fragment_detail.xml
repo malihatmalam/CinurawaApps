@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingHorizontal="32dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/pull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/ic_pull"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imgDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sample"
+        android:layout_below="@id/pull"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/txtTitleDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rumah Unit Melati Tipe 51/96"
+        android:fontFamily="@font/pt_sans_bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/imgDetail"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/keunggulan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keunggulan"
+        android:fontFamily="@font/pt_sans_bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/txtTitleDetail"
+        />
+    <TextView
+        android:id="@+id/txtKeunggulan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_keunggulan"
+        android:layout_below="@id/keunggulan"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:fontFamily="@font/pt_sans_bold"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/txtKeunggulan"
+        />
+
+    <TextView
+        android:id="@+id/txtAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jl. Indra Sroka, Citraloka, Yogyakarta"
+        android:layout_below="@id/alamat"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
